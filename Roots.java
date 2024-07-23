@@ -16,13 +16,13 @@ class Roots{
         System.out.format("root1=root2=%.2f",root1);
        System.out.println("\nroots are real and equal");
        }
-       if(determinant> 0){
+       else if(determinant> 0){
        root1 = (-b+d)/2*a;
        root2 = (-b-d)/2*a;
        System.out.format("root1=%.2f,root2=%.2f",root1,root2);
        System.out.println("roots are real and distinct");
        }
-       if(determinant < 0) {
+       else if(determinant < 0) {
        double real = -b/(2*a);
        double imaginary = Math.sqrt(-determinant)/(2*a);
        System.out.format("root1=%.2f+i%.2f",real,imaginary);
