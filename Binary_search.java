@@ -1,4 +1,4 @@
-//USING FUYNCTIONS
+//USING FUNCTIONS
 import java.util.*;
 class Binary_search
 {
@@ -61,6 +61,7 @@ public static void main(String []args)
 	a[i]=sc.nextInt();
 	}
 	sort(a,n);
+        System.out.println("the sorted elements are:");
 	for(int i=0;i<n;i++){
 	System.out.println(a[i]);
 	}
