@@ -8,7 +8,7 @@ class rand{
 		for(int i=0;i<5;i++){
 			for(int j=0;j<5;j++){
 			
-			cost[i][j] = r.nextInt((max-min+1)+min);
+			cost[i][j] = r.nextInt((max-min+1))+min;
 		}
 		}
 		for(int i=0;i<5;i++){
